@@ -14,9 +14,11 @@ h1{
     padding: 10px;
 
 }
-.button:hover {
+.button:hover{
    color: gray;
-}
+  
+
+   }
 
 .button{
     width: 30%;
@@ -27,20 +29,6 @@ h1{
     color: rgb(201, 197, 197);
     cursor: pointer;
    }
-
-
-/*--------------------MAIN-------------------*/
-
-.img1,.img2,.img3,.img4 {
-    width: 800px;
-    margin: 0px; 
-    padding: 0px;
-    position: absolute; 
-    left: 245px; 
-    display: none;
-  
-    }
-
 li {
    font-size: 65px;
   
@@ -49,27 +37,49 @@ li {
 
 ul{
   align-items: center;
-  
-}   
+  } 
 
-.img1 {
-    display: block;
+.img2,.img3,.img4 {
     width: 800px;
     margin: 0px; 
     padding: 0px;
     position: absolute; 
-    left: 245px; 
+    left: calc(50% - 400px);
+    bottom: -100px;
+    display: none;
+  
+    }
+
+.img1 {
+    display: block;
+    position: absolute; 
+    left: calc(50% - 400px);
+    bottom: -100px;
+    width: 800px;
+    margin: 0px; 
+    padding: 0px;
+   
   }
 
-  .button:hover .img2 .img3 .img4 {
+
+.button-two:hover .img2 {
     display: block;
    
     }
-    
 
+.button-three:hover .img3 {
+  display: block; 
 
-/*
+}
+
+        
 .button-four:hover .img4 {
     display:block;
-}
-*/
+    
+    }
+
+
+
+  
+
+
